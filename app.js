@@ -109,7 +109,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+  return multiply(multiply(multArr[0], multArr[1])[0], multArr[2]);
+  
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
