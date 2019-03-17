@@ -155,7 +155,6 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     product = multArray[0];
   }
   var result = [product, 'The numbers ' + dynamicArray + ' have a product of ' + product + '.'];
-  console.log(result);
   return result;
 }
 
